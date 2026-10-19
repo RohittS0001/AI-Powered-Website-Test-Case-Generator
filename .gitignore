@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Browser profiles and local browser data
+chrome-test-profile/
+playwright/.cache/
+
+# Generated outputs and progress
+output/
+*.xlsx
+manager_test_progress.json
+manual_discovery_inventory.json
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
